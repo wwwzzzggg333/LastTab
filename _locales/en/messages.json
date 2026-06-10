@@ -1,0 +1,50 @@
+{
+  "extName": {
+    "message": "LastTab"
+  },
+  "extDescription": {
+    "message": "Navigate back and forward through your tab visit history, like an editor."
+  },
+  "commandGoBack": {
+    "message": "Go back to previous tab"
+  },
+  "commandGoForward": {
+    "message": "Go forward to next tab"
+  },
+  "optionsTitle": {
+    "message": "LastTab Settings"
+  },
+  "optionsHistoryScopeTitle": {
+    "message": "History Scope"
+  },
+  "optionsGlobal": {
+    "message": "Global history (navigate across all windows)"
+  },
+  "optionsPerWindow": {
+    "message": "Per-window history (navigate within current window only)"
+  },
+  "optionsShortcutsTitle": {
+    "message": "Keyboard Shortcuts"
+  },
+  "optionsShortcutBack": {
+    "message": "Go back: Alt+Z (default)"
+  },
+  "optionsShortcutForward": {
+    "message": "Go forward: Alt+X (default)"
+  },
+  "optionsShortcutsLink": {
+    "message": "Customize shortcuts in Chrome"
+  },
+  "optionsShortcutsHint": {
+    "message": "Open chrome://extensions/shortcuts to change key bindings. If a shortcut does not work, check for conflicts with Chrome or other extensions."
+  },
+  "optionsIconTitle": {
+    "message": "Toolbar Icon"
+  },
+  "optionsIconDesc": {
+    "message": "Clicking the extension icon goes back to the previous tab."
+  },
+  "optionsSaved": {
+    "message": "Settings saved."
+  }
+}
