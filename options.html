@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LastTab</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main class="container">
+    <h1 data-i18n="optionsTitle"></h1>
+
+    <section>
+      <h2 data-i18n="optionsHistoryScopeTitle"></h2>
+      <label class="radio-row">
+        <input type="radio" name="historyScope" value="global" checked>
+        <span data-i18n="optionsGlobal"></span>
+      </label>
+      <label class="radio-row">
+        <input type="radio" name="historyScope" value="perWindow">
+        <span data-i18n="optionsPerWindow"></span>
+      </label>
+    </section>
+
+    <section>
+      <h2 data-i18n="optionsShortcutsTitle"></h2>
+      <p data-i18n="optionsShortcutBack"></p>
+      <p data-i18n="optionsShortcutForward"></p>
+      <p>
+        <a href="chrome://extensions/shortcuts" data-i18n="optionsShortcutsLink"></a>
+      </p>
+      <p class="hint" data-i18n="optionsShortcutsHint"></p>
+    </section>
+
+    <section>
+      <h2 data-i18n="optionsIconTitle"></h2>
+      <p data-i18n="optionsIconDesc"></p>
+    </section>
+
+    <p id="status" class="status" hidden></p>
+  </main>
+  <script src="options.js"></script>
+</body>
+</html>
