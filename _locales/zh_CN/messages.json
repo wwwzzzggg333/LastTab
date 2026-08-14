@@ -26,17 +26,20 @@
   "optionsShortcutsTitle": {
     "message": "键盘快捷键"
   },
-  "optionsShortcutBack": {
-    "message": "后退：Alt+Z（默认）"
+  "optionsShortcutBackLabel": {
+    "message": "后退"
   },
-  "optionsShortcutForward": {
-    "message": "前进：Alt+X（默认）"
+  "optionsShortcutForwardLabel": {
+    "message": "前进"
   },
-  "optionsShortcutsLink": {
-    "message": "在 Chrome 中自定义快捷键"
+  "optionsShortcutUnassigned": {
+    "message": "未分配"
+  },
+  "optionsCopyShortcutsUrl": {
+    "message": "复制地址"
   },
   "optionsShortcutsHint": {
-    "message": "打开 chrome://extensions/shortcuts 修改快捷键。若快捷键无效，请检查是否与浏览器或其他扩展冲突。"
+    "message": "将此地址粘贴到 Chrome 地址栏以修改快捷键。若快捷键无效，请检查是否与浏览器或其他扩展冲突。"
   },
   "optionsIconTitle": {
     "message": "工具栏图标"
@@ -46,5 +49,11 @@
   },
   "optionsSaved": {
     "message": "设置已保存。"
+  },
+  "optionsCopySuccess": {
+    "message": "快捷键设置地址已复制。"
+  },
+  "optionsError": {
+    "message": "操作失败，请重试。"
   }
 }

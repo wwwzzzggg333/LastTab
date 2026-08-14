@@ -24,11 +24,18 @@
 
     <section>
       <h2 data-i18n="optionsShortcutsTitle"></h2>
-      <p data-i18n="optionsShortcutBack"></p>
-      <p data-i18n="optionsShortcutForward"></p>
-      <p>
-        <a href="chrome://extensions/shortcuts" data-i18n="optionsShortcutsLink"></a>
+      <p class="shortcut-row">
+        <span data-i18n="optionsShortcutBackLabel"></span>
+        <kbd id="shortcut-back">—</kbd>
       </p>
+      <p class="shortcut-row">
+        <span data-i18n="optionsShortcutForwardLabel"></span>
+        <kbd id="shortcut-forward">—</kbd>
+      </p>
+      <div class="shortcut-url-row">
+        <code id="shortcuts-url">chrome://extensions/shortcuts</code>
+        <button id="copy-shortcuts-url" type="button" data-i18n="optionsCopyShortcutsUrl"></button>
+      </div>
       <p class="hint" data-i18n="optionsShortcutsHint"></p>
     </section>
 

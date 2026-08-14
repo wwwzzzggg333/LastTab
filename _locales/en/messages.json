@@ -26,17 +26,20 @@
   "optionsShortcutsTitle": {
     "message": "Keyboard Shortcuts"
   },
-  "optionsShortcutBack": {
-    "message": "Go back: Alt+Z (default)"
+  "optionsShortcutBackLabel": {
+    "message": "Go back"
   },
-  "optionsShortcutForward": {
-    "message": "Go forward: Alt+X (default)"
+  "optionsShortcutForwardLabel": {
+    "message": "Go forward"
   },
-  "optionsShortcutsLink": {
-    "message": "Customize shortcuts in Chrome"
+  "optionsShortcutUnassigned": {
+    "message": "Unassigned"
+  },
+  "optionsCopyShortcutsUrl": {
+    "message": "Copy address"
   },
   "optionsShortcutsHint": {
-    "message": "Open chrome://extensions/shortcuts to change key bindings. If a shortcut does not work, check for conflicts with Chrome or other extensions."
+    "message": "Paste this address into Chrome's address bar to change key bindings. If a shortcut does not work, check for conflicts with Chrome or other extensions."
   },
   "optionsIconTitle": {
     "message": "Toolbar Icon"
@@ -46,5 +49,11 @@
   },
   "optionsSaved": {
     "message": "Settings saved."
+  },
+  "optionsCopySuccess": {
+    "message": "Shortcuts address copied."
+  },
+  "optionsError": {
+    "message": "Something went wrong. Please try again."
   }
 }
