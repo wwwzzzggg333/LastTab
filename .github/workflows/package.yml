@@ -1,0 +1,42 @@
+name: Test and package extension
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Run automated tests
+        run: node --test tests/*.test.js
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check background.js
+          node --check options.js
+
+      - name: Build extension archive
+        shell: pwsh
+        run: ./scripts/package-extension.ps1 -OutputPath dist/lastTab.zip
+
+      - name: Upload extension archive
+        uses: actions/upload-artifact@v7
+        with:
+          name: lastTab-extension
+          path: dist/lastTab.zip
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0

@@ -1,51 +1,40 @@
 {
   "manifest_version": 3,
-  "name": "LastTab",
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
   "version": "1.0.0",
-  "description": "快速切换到上一个标签页，支持历史前进/后退",
-  "permissions": [
-    "tabs",
-    "storage",
-    "activeTab"
-  ],
+  "minimum_chrome_version": "102",
+  "default_locale": "en",
+  "permissions": ["storage"],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "LastTab - 回到上一个标签页",
+    "default_title": "__MSG_extName__",
     "default_icon": {
       "16": "icons/icon16.png",
-      "32": "icons/icon32.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     }
   },
-  "icons": {
-    "16": "icons/icon16.png",
-    "32": "icons/icon32.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  },
+  "options_page": "options.html",
   "commands": {
     "go-back": {
       "suggested_key": {
         "default": "Alt+Z"
       },
-      "description": "切换到上一个标签页"
+      "description": "__MSG_commandGoBack__"
     },
     "go-forward": {
       "suggested_key": {
         "default": "Alt+X"
       },
-      "description": "切换到下一个标签页"
+      "description": "__MSG_commandGoForward__"
     }
   },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "run_at": "document_start"
-    }
-  ],
-  "options_page": "options.html"
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
 }

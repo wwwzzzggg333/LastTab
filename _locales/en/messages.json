@@ -1,0 +1,59 @@
+{
+  "extName": {
+    "message": "LastTab"
+  },
+  "extDescription": {
+    "message": "Navigate back and forward through your tab visit history, like an editor."
+  },
+  "commandGoBack": {
+    "message": "Go back to previous tab"
+  },
+  "commandGoForward": {
+    "message": "Go forward to next tab"
+  },
+  "optionsTitle": {
+    "message": "LastTab Settings"
+  },
+  "optionsHistoryScopeTitle": {
+    "message": "History Scope"
+  },
+  "optionsGlobal": {
+    "message": "Global history (navigate across all windows)"
+  },
+  "optionsPerWindow": {
+    "message": "Per-window history (navigate within current window only)"
+  },
+  "optionsShortcutsTitle": {
+    "message": "Keyboard Shortcuts"
+  },
+  "optionsShortcutBackLabel": {
+    "message": "Go back"
+  },
+  "optionsShortcutForwardLabel": {
+    "message": "Go forward"
+  },
+  "optionsShortcutUnassigned": {
+    "message": "Unassigned"
+  },
+  "optionsCopyShortcutsUrl": {
+    "message": "Copy address"
+  },
+  "optionsShortcutsHint": {
+    "message": "Paste this address into Chrome's address bar to change key bindings. If a shortcut does not work, check for conflicts with Chrome or other extensions."
+  },
+  "optionsIconTitle": {
+    "message": "Toolbar Icon"
+  },
+  "optionsIconDesc": {
+    "message": "Clicking the extension icon goes back to the previous tab."
+  },
+  "optionsSaved": {
+    "message": "Settings saved."
+  },
+  "optionsCopySuccess": {
+    "message": "Shortcuts address copied."
+  },
+  "optionsError": {
+    "message": "Something went wrong. Please try again."
+  }
+}

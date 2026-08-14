@@ -1,1 +1,5 @@
-.history
+.cursor/
+cursor-recovered-chats/
+.history/
+dist/
+lastTab.zip

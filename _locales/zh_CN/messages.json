@@ -1,0 +1,59 @@
+{
+  "extName": {
+    "message": "LastTab"
+  },
+  "extDescription": {
+    "message": "像编辑器一样在标签页访问历史中后退和前进。"
+  },
+  "commandGoBack": {
+    "message": "后退到上一个标签页"
+  },
+  "commandGoForward": {
+    "message": "前进到下一个标签页"
+  },
+  "optionsTitle": {
+    "message": "LastTab 设置"
+  },
+  "optionsHistoryScopeTitle": {
+    "message": "历史范围"
+  },
+  "optionsGlobal": {
+    "message": "全局历史（可跨窗口导航）"
+  },
+  "optionsPerWindow": {
+    "message": "按窗口独立（仅在当前窗口内导航）"
+  },
+  "optionsShortcutsTitle": {
+    "message": "键盘快捷键"
+  },
+  "optionsShortcutBackLabel": {
+    "message": "后退"
+  },
+  "optionsShortcutForwardLabel": {
+    "message": "前进"
+  },
+  "optionsShortcutUnassigned": {
+    "message": "未分配"
+  },
+  "optionsCopyShortcutsUrl": {
+    "message": "复制地址"
+  },
+  "optionsShortcutsHint": {
+    "message": "将此地址粘贴到 Chrome 地址栏以修改快捷键。若快捷键无效，请检查是否与浏览器或其他扩展冲突。"
+  },
+  "optionsIconTitle": {
+    "message": "工具栏图标"
+  },
+  "optionsIconDesc": {
+    "message": "点击扩展图标将后退到上一个标签页。"
+  },
+  "optionsSaved": {
+    "message": "设置已保存。"
+  },
+  "optionsCopySuccess": {
+    "message": "快捷键设置地址已复制。"
+  },
+  "optionsError": {
+    "message": "操作失败，请重试。"
+  }
+}
