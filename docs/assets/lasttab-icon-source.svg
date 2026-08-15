@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">LastTab icon</title>
+  <desc id="desc">Two overlapping browser tabs with a bold back arrow.</desc>
+  <path fill="#2445C7" d="M178 128h286c31 0 49 10 69 35l54 67c10 13 22 18 41 18h164c67 0 104 38 104 105v364c0 67-37 105-104 105H178c-67 0-104-38-104-105V233c0-67 37-105 104-105Z"/>
+  <path fill="#4285F4" d="M300 284h286c31 0 49 10 69 35l54 67c10 13 22 18 41 18h96c67 0 104 38 104 105v282c0 67-37 105-104 105H300c-67 0-104-38-104-105V389c0-67 37-105 104-105Z"/>
+  <path fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="94" d="M738 600H421m0 0 142-142M421 600l142 142"/>
+</svg>
